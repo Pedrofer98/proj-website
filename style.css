@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+header {
+    background-color: aqua;
+    width: 90%;
+   display: flex;
+    justify-content: center;
+}
+
+.grid{
+    display: flex;
+    justify-content: space-around;
+}
+
+.sidebar{
+    background-color: antiquewhite;
+    height: 600px;
+    width: 100px;
+    display: flex;
+    justify-content: flex-start;
+}
+.content{
+    background-color: aquamarine;
+}
+#contentCont {
+    display: flex;
+}
+#footer {
+    background-color: aqua;
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px;
+    height: 25px;
+
+}
