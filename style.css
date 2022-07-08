@@ -2,36 +2,34 @@ body {
     display: flex;
     flex-direction: column;
 }
-header {
-    background-color: aqua;
-    width: 90%;
-   display: flex;
-    justify-content: center;
+header{
+    background-color: aquamarine;
+    width: 100%;
+    height: 100px;
+    text-align: center;
 }
 
-.grid{
+.rows{
+    background-color: bisque;
     display: flex;
-    justify-content: space-around;
+    align-content: stretch;
+    
 }
 
 .sidebar{
-    background-color: antiquewhite;
+    background-color: aliceblue;
+    flex:1;
     height: 600px;
-    width: 100px;
-    display: flex;
-    justify-content: flex-start;
+    margin:5px;
 }
-.content{
-    background-color: aquamarine;
-}
-#contentCont {
-    display: flex;
-}
-#footer {
-    background-color: aqua;
-    display: flex;
-    justify-content: flex-start;
-    margin: 10px;
-    height: 25px;
 
+.content{
+    background-color: beige;
+    flex:2;
+    margin:5px;
+}
+
+#footer{
+    background-color: blanchedalmond;
+    height: 50px;
 }
